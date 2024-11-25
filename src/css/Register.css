@@ -1,0 +1,159 @@
+.Register {
+    /* background-color: #ccc; */
+}
+
+.reg-form {
+    box-shadow: 0px 0px 5px #ccc;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.reg-form h4 {
+    color: #006700;
+    font-size: 26px;
+}
+
+
+
+.reg-form .InputElement input {
+    border-radius: 15px;
+    max-width: 425px;
+    border: 1px solid #F58634;
+}
+
+.reg-form .InputElement input:focus {
+    outline: none;
+}
+
+.reg-form .error {
+    color:#F58634;
+    font-size: 13px;
+}
+
+.reg-form .google-container {
+    position: relative;
+    border-left: 1px solid #ccc;
+    /* border: 1px solid black; */
+}
+
+.reg-form .google-container::before {
+    content: 'OR';
+    position: absolute;
+    top: calc(50% - 12px);
+    left: -12px;
+    height: 25px;
+    width: 25px;
+    border-radius: 10px;
+    background-color: white;
+    color: #ccc;
+
+}
+
+.reg-form .google {
+    padding: 6px 12px;
+    font-weight: 700;
+    border-radius: 25px;
+    color: #4285F4;
+    border: 1px solid #4285F4;
+}
+
+.reg-form .SelectionCard {
+    font-size: 12px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.reg-form .InfoSection:nth-child(2){
+    color: #ccc;
+}
+
+.reg-form .ImageSection {
+    /* border: 1px solid black; */
+}
+
+
+.reg-form .fileCard{
+    position: relative;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 8px;
+    border: 1px solid #ccc;
+    color: #a6a6a6;
+    border-radius: 20px;
+    /* background-color: #ebe2e2; */
+}
+
+/* the below two classes must be the same height and width */
+.reg-form .fileInput{
+    z-index: 5 !important;
+    height: 35px !important; 
+    width: 140px !important;
+    border: none !important;
+    margin-right: 10px;
+    opacity: 0;
+    cursor: pointer;
+    /* background-color: blue; */
+}
+
+.reg-form .fileBtn{
+    position: absolute;
+    height: 35px;
+    width: 140px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #F58634;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.reg-form .fileInput:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.selectedFile {
+    border:1px solid #a6a6a6; 
+    /* opacity: 0.5; */
+    color: #a6a6a6;
+    border-radius: 20px;
+}
+
+
+@media (max-width: 510px) {
+    .reg-form .fileCard {
+        padding-left: 5px ;
+    }
+}
+
+.reg-form .whatsappCheckbox {
+    color: #a6a6a6;
+    font-size: 13px;
+    font-weight: bold;
+    /* border: 1px solid black; */
+}
+
+.submitWrapper {
+    /* border: 1px solid black; */
+}
+
+.reg-form .submit {
+    padding: 7px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #F58634;
+    width: fit-content;
+}
+
+.reg-form .gray13px {
+    font-size: 13px;
+    color: #a6a6a6;
+}
+
+.reg-form select {
+    max-width: 425px;
+}

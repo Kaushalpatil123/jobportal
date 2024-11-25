@@ -1,0 +1,330 @@
+.widgetContnr {
+    position: fixed;
+    top: 215px;
+    right: 0;
+    width:2px;
+    z-index: 100;
+}
+.materialize *, .materialize :after, .materialize :before {
+    box-sizing: inherit;
+}
+.materialize *, .materialize :after, .materialize :before {
+    color: inherit;
+}
+.materialize {
+    line-height: 1.2;
+}
+.materialize ul:not(.browser-default) {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+   .contactWidget {
+    width: 135px;
+    float: right;
+    border: 1px solid #e2e2e2;
+    -webkit-box-shadow: 1px 1px 9px rgba(0,0,0,.6);
+    -moz-box-shadow: 1px 1px 9px rgba(0, 0, 0, .6);
+    box-shadow: 1px 1px 9px rgba(0,0,0,.6);
+}
+.fadeInRight {
+    -webkit-animation: fadeInRight 1s ease-in-out;
+    -moz-animation: fadeInRight 1s ease-in-out;
+    -o-animation: fadeInRight 1s ease-in-out;
+    animation: fadeInRight 1s ease-in-out;
+}
+.materialize *, .materialize :after, .materialize :before {
+    box-sizing: inherit;
+
+}
+.materialize *, .materialize :after, .materialize :before {
+    color: inherit;
+}
+.contactWidget .nopointr {
+    cursor: auto;
+    height: auto;
+    padding: 4px 0px 3px 0px;
+}
+
+.materialize ul:not(.browser-default) li {
+    list-style-type: none;
+}
+.contactWidget li {
+    padding: 10px;
+    font-size: 13px;
+    background: #fff;
+    overflow: hidden;
+    border-bottom: 1px solid #e2e2e2;
+    cursor: pointer;
+    height: 45px;
+}
+.chatIc, .tollIc {
+    background-position: 9px 10px;
+    height: 21px;
+    width: 24px;
+    float: left;
+    margin: 22px 6px 0;
+    display: inline-block;
+    max-width: 27px;
+    max-height: 21px;
+    color: #c71e21;
+}
+
+.widgtAr, footer .footrTwitr i {
+    background: url("../images/Icons/telephone.png") no-repeat;
+    display: inline-block;
+    max-width: 26px; /* Adding max-width */
+    max-height: 13px; /* Adding max-height */
+}
+
+.widgtAr {
+    background-position: 1px -387px;
+    height: 13px;
+    width: 26px;
+    margin: 0 0 0 -15px;
+}
+
+   .contactWidget .cal {
+    margin: 1px 6px 3px 18px;
+    font-weight: 400;
+}
+   .contactWidget .cal p {
+    margin-top: 2px;
+    font-weight: 400;
+}
+
+   .txtBlue {
+    color: #004276;
+}
+
+   .contactWidget .nopointr .txtRed {
+    line-height: 1em;
+}
+
+   .contactWidget .cal p {
+    margin-top: 2px;
+    font-weight: 400;
+}
+   .font_16 {
+    font-size: 12px;
+}
+   .txtRed {
+    color: #c71e21;
+}
+   .contactWidget .cal p {
+    margin-top: 2px;
+    font-weight: 400;
+}
+
+   a,    body,    button,    h1,    h2,    h3,    h4,    h5,    h6,    p {
+    font-weight: 300;
+}
+   p {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+
+
+.contactWidget li#calBack {
+    padding: 1px 10px;
+}
+
+.materialize ul:not(.browser-default) li {
+    list-style-type: none;
+}
+ .contactWidget li {
+    padding: 10px;
+    font-size: 14px;
+    background: #fff;
+    overflow: hidden;
+    border-bottom: 1px solid #e2e2e2;
+    cursor: pointer;
+    height: 39px;
+}
+
+ .contactWidget li .widgtLi_2 {
+    padding: 7px  0 0;
+}
+.callIc {
+    background-position: 1px -70px;
+    height: 26px;
+    margin: -5px 7px 0 0;
+    width: 27px;
+}
+ .contactWidget a {
+    color: #004276;
+    font-weight: 400;
+}
+.contactWidget {
+    width: 142px;
+    float: right;
+    border: 1px solid #e2e2e2;
+    -webkit-box-shadow: 1px 1px 9px rgba(0,0,0,.6);
+    -moz-box-shadow: 1px 1px 9px rgba(0, 0, 0, .6);
+    box-shadow: 1px 1px 9px rgba(0,0,0,.6);
+}
+
+
+
+
+ a {
+    text-decoration: none;
+}
+
+ a {
+    color: #039be5;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+ a {
+    background-color: transparent;
+}
+
+
+
+
+
+.displayB {
+    display: block;
+}
+.calBackCont {
+    float: right;
+    margin: 0px 156px 4px 16px;
+    position: relative;
+    top: -186px;
+}
+.calBackCont .calMeForm {
+    width: 450px;
+    border: 1px solid #e2e2e2;
+    -webkit-box-shadow: 1px 1px 9px rgba(0,0,0,.6);
+    -moz-box-shadow: 1px 1px 9px rgba(0, 0, 0, .6);
+    box-shadow: 1px 1px 9px rgba(0,0,0,.6);
+}
+.bgGreen {
+    background: rgb(251 173 120 );
+}
+.bgGreen, .oldContactUs .bglightGray, .oldContactUs .bgwhite {
+    /* background: #2e3339; */
+    color: #fff;
+    padding: 4px 0;
+}
+.calBackCont .calMeForm .closeForm {
+    float: right;
+    padding: 0px;
+    margin-top: -4px;
+    background: #ed945d;
+}
+.calBackCont .calMeForm .closeForm em {
+    height: 32px;
+    width: 32px;
+    /* margin-top: 7px; */
+    /* top: 2px; */
+    cursor: pointer;
+}
+.calBackCont .calMeForm .formHd {
+    padding: 5px 14px 7px 62px;
+    font-size: 22px;
+    /* float: left; */
+    width: 80%;
+    font-weight: 800;
+}
+.oldContactUs .font_small {
+    font-size: 11px;
+}
+.oldContactUs .mandtory {
+    text-align: right;
+}
+.dspB {
+    display: block !important;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 14px;
+}
+.oldContactUs .font_small {
+    font-size: 11px;
+}
+.formInputC {
+    background: #f5f3f3;
+    background: rgba(245, 243, 243, .94);
+    padding: 10px 25px 25px;
+    zoom: 1;
+}
+.font_small {
+    font-size: 10px;
+}
+.oldContactUs .mandtory {
+    text-align: right;
+}
+.row, .row.ok {
+    margin: 15px 0 0;
+}
+.txtWrap {
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    height: 35px;
+    border-radius: 9px;
+    margin: 0;
+}
+.row.ok input, .row.ok textarea, .row input, .row textarea {
+    resize: none;
+    overflow: hidden;
+    outline: 0;
+    border: 0;
+    font-size: 13px;
+    padding: 0px;
+    width: 384px;
+    font-weight: 600;
+}
+.txtWrap.txtarea textarea {
+    height: 100%;
+}
+#submitQuery {
+    margin-top: 10px;
+}
+.row .erLbl, .row.err .erLbl, .row.ok .erLbl {
+    margin-top: 0.5rem;
+}
+.erLbl, .row .erLbl, .row.err .erLbl, .row.ok .erLbl {
+    display: none;
+    color: #f34235;
+    font-size: .86rem;
+}
+.oldContactUs .erLbl {
+    clear: both;
+}
+.formArr {
+    background-position: 1px -344px;
+    height: 32px;
+    width: 100%;
+    position: absolute;
+    right: -113px;
+    top: 62px;
+    /* background-image: url(../images/Icons/White-Arrow-PNG.png); */
+    z-index: 40000;
+}
+.blue_btnBig, .oldContactUs .blue_btnSmal {
+    background: #2044af;
+    border: 1px solid #223b97;
+    color: #fff !important;
+    font-size: 22px !important;
+    padding: 5px 20px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.oldContactUs .oh {
+    overflow: hidden;
+}
+
+.oldContactUs .p0 {
+    padding: 0 !important;
+}
+
+.closeForm em {
+    /* background: url("../images/cross.png") no-repeat; */
+    display: inline-block;
+}

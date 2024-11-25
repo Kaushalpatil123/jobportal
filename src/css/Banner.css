@@ -1,0 +1,46 @@
+
+@media (min-width: 100px) {
+    .first-header {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: -10px;
+    }
+    .second-header{
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .third-header {
+        font-size: 23px;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 641px) {
+    .first-header {
+        font-size: 45px;
+        font-weight: 700;
+        margin-bottom: -15px;
+    }
+    .second-header{
+        font-size: 45px;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 769px) {
+    .first-header {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: -15px;
+    }
+    .second-header{
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .third-header {
+        font-size: 25px;
+        font-weight: 600;
+    }
+}

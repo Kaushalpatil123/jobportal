@@ -1,0 +1,72 @@
+.sideBar {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    height: 100%;
+    width: 300px;
+    background-color: white;
+    z-index: 101;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 0px 5px #ccc;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.sideBar::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+/* black div helper to close the sideBar */
+.fallBack {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 100;
+}
+
+.header {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-bottom:  1px solid #ccc;
+    letter-spacing: 1px;
+}
+
+.viewProfile {
+    padding: 5px 0px;
+    margin-top: 10px;
+    width: 70%;
+    font-weight: bold;
+    margin-bottom: 4px;
+    border-radius: 15px;
+    color: #333;
+    background-color: #f8f8f8;
+} 
+
+.viewProfile:hover {
+    background-color: #ebebeb;
+    cursor: pointer;
+}
+
+.content ul {
+    list-style: none;
+    width: 100%;
+    padding: 10px;
+    /* border: 1px solid blue; */
+}
+
+.content ul li {
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
